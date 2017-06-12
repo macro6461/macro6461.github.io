@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Matthew Croak Media</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link href="styles/screen.css" type="text/css" rel="stylesheet"/>
+    </head> 
+<body>	
+			<img class="banner" src="images/BWParkbanner.jpg" alt="BannerAnderson">
+    <ul class="nav">
+        <li><a href="index.html">About</a></li>
+        <li><a href="ComputerApplications.html">Computer Applications</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Media</button>
+                    <div class="dropdown-content">
+                        <a href="Photography.html">Photography</a>
+                        <a href="Video.html">Video Production</a>
+                    </div>
+            </div>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    <h3>Photography</h3>
+    <h4>The Galápagos Islands</h4>
+        <div class="slideShow">
+                <button class="buttonPrev" onclick="plusDivs(-1)"> &#10094; </button>
+                <button class="buttonNext" onclick="plusDivs(+1)"> &#10095; </button>
+            <img class="mySlides" src="images/Nazca.JPG">
+            <img class="mySlides" src="images/Nazcas2.JPG">
+            <img class="mySlides" src="images/Pelican.JPG">
+            <img class="mySlides" src="images/SeaLion.jpeg">
+            <img class="mySlides" src="images/Waterfall.JPG">
+            <img class="mySlides" src="images/Crab.jpeg">
+            <div class="smallPics">
+                <div class="myPics">
+                    <img class="nextUp" src="images/Nazca.JPG" onclick="currentDiv(1)">
+                </div>
+                <div class="myPics">
+                    <img class= "nextUp" src="images/Nazcas2.JPG" onclick="currentDiv(2)">
+                </div>
+                <div class="myPics">
+                    <img class="nextUp" src="images/Pelican.JPG" onclick="currentDiv(3)">
+                </div>
+                <div class="myPics">
+                    <img class="nextUp" src="images/SeaLion.jpeg" onclick="currentDiv(4)">
+                </div>
+                <div class="myPics">
+                    <img class="nextUp" src="images/Waterfall.JPG" onclick="currentDiv(5)">
+                </div>
+                <div class="myPics">
+                    <img class="nextUp" src="images/Crab.jpeg" onclick="currentDiv(6)">
+                </div>
+            </div>
+        </div>
+    <script src="js/myscript.js" type="text/javascript"></script>
+    <h4>Photoshop</h4>
+    <p>
+        You should always strive to get the best shots without doing too much in post (if anything at all). But sometimes you find imperfections in your pictures, like a phantom spot due to a blemish on the camera sensor. Sometimes you do not get the color to pop. Your photo is over-exposed. The lighting was poor. So many factors both in and out of your control can prevent you from getting the most out of your pictures. And for situations such as these, proficiency in Photoshop is a must.     
+    </p>
+    <p>Here are a few examples of how I used to photoshop to enrich my photos! These photos were taken on a Nikon D7100.</p>
+    <img id="photoshop" src="images/frenchBefore.JPG" alt="Frenchie Before Photoshop"/>
+    <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+        </div>
+    <img id="photoshop" src="images/frenchAfter.jpeg" alt="Frenchie After Photoshop"/>
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+        </div>
+        <p>Look at the lefthand photo of an adorable French Bulldog I passed on the street in Chlesea. You can see the color is flat, and the dog has a few belmishes around his mouth and eyes, plus his face is rather dark. With some Photoshop healing and a little adjustment of warmth, saturation, smoothing, shadow and contrast the picture becomes more inviting. I wanted to recreate the warm feeling that I felt when I first saw him. &#9786;</p>
+    <img id="photoshop" src="images/fatherBefore.jpeg" alt="Father Before Photoshop"/>
+    <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+        </div>
+    <img id="photoshop" src="images/fatherAfter.jpeg" alt="Father After Photoshop"/>
+    <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+        </div>
+        <p>
+           Here we have a father and son enjoying a beautiful day in prospect park. This picture was taken using a telephoto 300mm lense from about 150 yards away. The first picture, while the sharpness and focus is precise, the color could still use a little bit of adjustment. I wanted to improve the vibrance of the surrounding foliage and grass, along with the father's hat to show the twead pattern. However, saturation of the clothing proved to be overkill. The red pants, the orange jacket are already bright and vibrant enough. Too much post production would make the colors overwhelming and take away from the warmth and subtley of the image. The picture is of a father and son enjoying a stroll in a park, not a lazer light show!   
+        </p>
+    <img onclick="openModal(this);" id="photoshop" src="images/beachBefore.jpeg" alt="Beach Before Photoshop"/>
+    <img id= "photoshop" src="images/beachAfter.jpeg" alt="Beach After Photoshop"/>
+        <p>
+            This one I had a little more fun with. While there is a spot from a blemish on my sensor toward the top right of the image against the blue sky, some of these adjustments were made out of experimentation. The spot and the color needed adjustment, but removing the boat in the background through Photoshop healing was more for fun than neccesity. 
+        </p>
+    <p>For more photography, please click the icon below to check out my Instagram page!</p>
+    <a id="pinkinsta" href="https://www.instagram.com/m_c_media/"><img class="pinkinsta" src="images/pinkinsta.png"/> </a>
+    <section align="center" id="SocialMedia">
+            <a id="YouTube" href="https://www.youtube.com/channel/UCt2tt8VVuYUDYzr09uZK8-g"><img class="You" src="images/youtube-4-xxl.png"/></a>
+            <a id="LinkedIn" href="https://www.linkedin.com/in/matthew-croak-18467483?trk=nav_responsive_tab_profile"><img class="Linked" src="images/linkedin-3.png"/></a>
+            <a id="insta" href="https://www.instagram.com/m_c_media/"><img class="insta" src="images/instagram-3.png"/></a>
+			<a id="git" href="https://github.com/macro6461"><img class="git" src="images/git-3.png"/></a>
+        </section>
+    <script src="js/modal.js" type="text/javascript"></script>
+</body>
+<footer>
+		<p>
+		Contact 
+		<a href="mailto:mcroakmedia@gmail.com?Subject=Hello%20again" target="_top">Matthew Croak Media</a>
+		For Media Inquiries
+		</p>
+		<p>
+		Site developed by Matthew Croak Media &copy;2017 
+		</p>
+		<a href="#top">Back To Top</a>
+</footer>
+</html>
