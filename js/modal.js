@@ -1,15 +1,14 @@
-var modal = document.getElementById('myModal');
+var modalDiv = document.getElementById("modalDiv");
+function openModal(img){
+    var modalImage = document.getElementById("modalImage");
+    var modalCaption = document.getElementById("modalCaption");
 
-var img = document.getElementById('photoshop');
-var modalImg = document.getElementById('img01');
-
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
+    modalDiv.style.display = "block";
+    modalImage.src = img.src;
+    modalCaption.innerText = img.alt;
 }
 
-var span = document.getElementsByClassName("close")[0];
-
-span.onclick = function() { 
-  modal.style.display = "none";
+var span = document.getElementById("modalClose");
+span.onclick = function() {
+    modalDiv.style.display = "none";
 }
