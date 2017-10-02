@@ -30,12 +30,7 @@ p {
     padding: 3%;
     padding-bottom: none;
     margin-bottom: 5%;
-
     text-align: center;
-}
-
-.banner_img{
-
 }
 
 .CroakTree {
@@ -156,8 +151,8 @@ ul li :hover{
 	background-color: #800000;
 	color: white;
 	display: block;
-	box-shadow:5px 10px 5px #800000;
-    opacity: .8;
+	box-shadow:1px 5px 1px #800000;
+    opacity: 1;
 }
 
 ul li a{
@@ -168,10 +163,12 @@ ul li a{
 	font-size: 3vw;
 	padding: 15px;
     margin: auto;
+    font-weight: bold;
 }
 
 ul li a:hover{
 	background-color: #800000;
+  border-radius: 10px;
 	color: white;
 }
 
@@ -219,14 +216,15 @@ ul li a:hover{
     padding: 5px;
     text-decoration: none;
     display: block;
-    opacity: .8;
-    size: 1.5vw;
+    opacity: 1;
+    font-size: 1vw;
 }
 
 .dropdown-content a:hover {
     background-color: #800000;
     color: white;
     transform: scale(1.1);
+    border-radius: 10px;
 }
 
 .dropdown:hover .dropdown-content {

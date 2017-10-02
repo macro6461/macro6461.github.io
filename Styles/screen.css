@@ -148,17 +148,6 @@ figure{
     box-shadow: 0 2px 3px rgba(0,0,0,.6);
 }
 
-.navFix{
-    background-color: black;
-	color:white;
-	padding: 0;
-	opacity: .8;
-    margin: auto;
-    width: 100%;
-    position: fixed;
-    box-shadow: 0 2px 3px rgba(0,0,0,.4);
-}
-
 ul li {
 	display:inline-block;
     margin: 2%;
@@ -171,8 +160,8 @@ ul li :hover{
 	background-color: #800000;
 	color: white;
 	display: block;
-	box-shadow:5px 10px 5px #800000;
-    opacity: .8;
+	box-shadow:1px 5px 1px #800000;
+    opacity: 1;
 }
 
 ul li a{
@@ -187,6 +176,7 @@ ul li a{
 
 ul li a:hover{
 	background-color: #800000;
+  border-radius: 10px;
 	color: white;
 }
 
@@ -209,8 +199,10 @@ ul li a:hover{
 	background-color: #800000;
 	color: white;
     transform: scale(1.1);
-    opacity: .8;
-    box-shadow:5px 10px 5px #800000;
+    opacity: 1;
+    box-shadow:1px 5px 1px #800000;
+    border-radius: 10px;
+
 }
 
 .dropdown {
@@ -222,6 +214,7 @@ ul li a:hover{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
+    border-radius: 10px;
     font-size: 1vw;
     min-width: 160px;
     min-height: 15px;
@@ -234,14 +227,15 @@ ul li a:hover{
     padding: 5px;
     text-decoration: none;
     display: block;
-    opacity: .8;
-    size: 1.5vw;
+    opacity: 1;
+    font-size: 1vw;
 }
 
 .dropdown-content a:hover {
     background-color: #800000;
     color: white;
     transform: scale(1.1);
+    border-radius: 10px;
 }
 
 .dropdown:hover .dropdown-content {
