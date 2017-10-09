@@ -2,7 +2,6 @@ body{
     width: 100%;
     height: auto;
     background: white;
-	margin: 0;
 	padding: 0;
 	text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -147,15 +146,7 @@ ul li {
 	padding: 0;
 }
 
-ul li :hover{
-	background-color: #800000;
-	color: white;
-	display: block;
-	box-shadow:1px 5px 1px #800000;
-    opacity: 1;
-}
-
-ul li a{
+a.nav_icon{
 	text-decoration: none;
 	color: grey;
 	display: block;
@@ -165,7 +156,7 @@ ul li a{
     margin: auto;
 }
 
-ul li a:hover{
+a.nav_icon:hover{
 	background-color: #800000;
   border-radius: 10px;
 	color: white;
@@ -203,7 +194,7 @@ ul li a:hover{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    font-size: 2vw;
+    font-size: 3vw;
     min-width: 160px;
     min-height: 15px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -216,7 +207,7 @@ ul li a:hover{
     text-decoration: none;
     display: block;
     opacity: 1;
-    font-size: 1vw;
+    font-size: 3vw;
 }
 
 .dropdown-content a:hover {
@@ -568,64 +559,66 @@ footer {
     border-top: solid 3px #800000;
 }
 
-.you_foot {
-    width: 80px;
+#you_foot {
+    width: 25px;
     height: auto;
+    top: 120px;
+    left: 9px;
     opacity: .8;
-    margin-left: 1%;
 }
 
-
-
-.you_foot:hover{
-    transform: scale(1.1);
+#you_foot:hover{
+    transform: scale(2);
 }
 
-.link_foot {
-  width: 80px;
+#link_foot {
+  width: 25px;
   height: auto;
-  margin-left: 10%;
+  top: 120px;
+  left: 9px;
+  margin-left: 15%;
 }
 
-.link_foot:hover{
-    transform: scale(1.1);
-}
-
-.foot_nav{
-  bottom: 0;
+#link_foot:hover{
+    transform: scale(2);
 }
 
 
-.insta_foot {
-  width: 80px;
+#insta_foot {
+  width: 25px;
   height: auto;
-  margin-left: 10%;
+  top: 120px;
+  left: 9px;
+  margin-left: 15%;
 }
 
-.insta_foot:hover{
-    transform: scale(1.1);
+#insta_foot:hover{
+    transform: scale(2);
 }
 
-.git_foot {
-  width: 100px;
+#git_foot {
+  width: 30px;
   height: auto;
-  padding-top: 10px;
-  margin-left: 20%;
+  top: 130px;
+  left: 9px;
+  margin-left: 15%;
   opacity: .5;
 }
 
-.git_foot:hover{
-    transform: scale(1.1);
+#git_foot:hover{
+    transform: scale(2);
 }
 
-.med_foot{
-  width: 80px;
+#med_foot{
+  width: 25px;
   height: auto;
-  margin-left: 30%;
+  top: 120px;
+  left: 9px;
+  margin-left: 15%;
 }
 
-.med_foot:hover{
-    transform: scale(1.1);
+#med_foot:hover{
+    transform: scale(2);
 }
 
 .form{
