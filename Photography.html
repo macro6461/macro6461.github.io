@@ -6,9 +6,24 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
         <link href="Styles/screen.css" media="screen and (min-device-width: 500px)" type="text/css" rel="stylesheet">
         <link href="Styles/mobile.css" media="screen and (max-device-width: 499px)" type="text/css" rel="stylesheet">
+        <script src="js/nav.js" type="text/javascript"></script>
     </head>
 <body>
+    <div style="position: relative;">
 			<img class="banner" src="images/BWParkBanner.jpg" alt="BannerAnderson">
+      <ul class="nav normal">
+        <li><a class="nav_icon" href="index.html">About</a></li>
+        <li><a class="nav_icon" href="ComputerApplications.html">Software Engineering</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Media</button>
+                    <div class="dropdown-content">
+                        <a href="Photography.html">Photography</a>
+                        <a href="Video.html">Videography</a>
+                    </div>
+            </div>
+        <li><a class="nav_icon" href="Contact.html">Contact</a></li>
+      </ul>
+        </div>
     <h3>Photography</h3>
     <h4>The Galápagos Islands</h4>
         <div class="slideShow">
@@ -46,18 +61,18 @@
     <p>
         You should always strive to get the best shots without doing too much in post (if anything at all). But sometimes you find imperfections in your pictures, like a phantom spot due to a blemish on the camera sensor. Sometimes you do not get the color to pop. Your photo is over-exposed. The lighting was poor. So many factors both in and out of your control can prevent you from getting the most out of your pictures. And for situations such as these, proficiency in Photoshop is a must.
     </p>
-    <p>Here are a few examples of how I used to photoshop to enrich my photos! These photos were taken on a Nikon D7100.</p>
+    <p>Here are a few examples of how I used to photoshop to enrich my photos! These photos were taken on my Nikon D7100.</p>
     <img id="before_french" onclick="openModal(this);" src="images/frenchBefore.JPG" alt="Frenchie Before Photoshop"/>
     <img id="after_french" onclick="openModal(this);" src="images/frenchAfter.jpeg" alt="Frenchie After Photoshop"/>
-    <p>Look at the left hand photo of an adorable French Bulldog I passed...</p>
+    <p>Look at the lefthand photo of an adorable French Bulldog I passed on the street in Chelsea. You can see the color is flat, and the dog has a few belmishes around his mouth and eyes, plus his face is rather dark. With some Photoshop healing and a little adjustment of warmth, saturation, smoothing, shadow and contrast the picture becomes more inviting. I wanted to recreate the warm feeling that I felt when I first saw him. &#9786;</p>
 
     <img id="before_father" onclick="openModal(this);" src="images/fatherBefore.jpeg" alt="Father Before Photoshop"/>
     <img id="after_father" onclick="openModal(this);" src="images/fatherAfter.jpeg" alt="Father After Photoshop"/>
-    <p>Here we have a father and son enjoying a beautiful day in ...</p>
+    <p>Here we have a father and son enjoying a beautiful day in prospect park. This picture was taken using a telephoto 300mm lense from about 150 yards away. The first picture, while the sharpness and focus is precise, the color could still use a little bit of adjustment. I wanted to improve the vibrance of the surrounding foliage and grass, along with the father's hat to show the twead pattern. However, saturation of the clothing proved to be overkill. The red pants, the orange jacket are already bright and vibrant enough. Too much post production would make the colors overwhelming and take away from the warmth and subtley of the image. The picture is of a father and son enjoying a stroll in a park, not a lazer light show!</p>
 
     <img id="before_beach" onclick="openModal(this);" src="images/beachBefore.jpeg" alt="Beach Before Photoshop"/>
     <img id="after_beach" onclick="openModal(this);" src="images/beachAfter.jpeg" alt="Beach After Photoshop"/>
-    <p>This one I had a little more fun with. While there is a spot...</p>
+    <p>This one I had a little more fun with. While there is a spot from a blemish on my sensor toward the top right of the image against the blue sky, some of these adjustments were made out of experimentation. The spot and the color needed adjustment, but removing the boat in the background through Photoshop healing was more for fun than neccesity.</p>
 
 
     <div id="modalDiv" class="modal" style="display:none;">
@@ -76,18 +91,6 @@
 			      <a id="git" href="https://github.com/macro6461"><img class="git" src="images/git-3.png"/></a>
             <a id="medium" href="https://medium.com/@mattcroak718"><img class="med" src="images/maroon_med.png" alt="Medium"/></a>
         </section>
-        <ul class="nav">
-          <li><a class="nav_icon" href="index.html">About</a></li>
-          <li><a class="nav_icon" href="ComputerApplications.html">Computer Applications</a></li>
-              <div class="dropdown">
-                  <button class="dropbtn">Media</button>
-                      <div class="dropdown-content">
-                          <a href="Photography.html">Photography</a>
-                          <a href="Video.html">Videography</a>
-                      </div>
-              </div>
-          <li><a class="nav_icon" href="Contact.html">Contact</a></li>
-        </ul>
     <script src="js/modal.js" type="text/javascript"></script>
     <script src="js/myscript.js" type="text/javascript"></script>
 
